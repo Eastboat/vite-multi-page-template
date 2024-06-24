@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+body,
+#app {
+  @include flex-center;
+  height: 100vh;
+  background-color: rgb(230, 230, 211);
+  color: #fff;
+}

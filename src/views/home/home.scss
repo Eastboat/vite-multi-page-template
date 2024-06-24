@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+body,
+#home {
+  @include flex-center;
+  height: 100vh;
+  background-color: $primary-color;
+  color: #fff;
+}
